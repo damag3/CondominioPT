@@ -1,0 +1,23 @@
+CONDOMÍNIO PT — gestão de condomínios (propriedade horizontal, Portugal)
+
+CRIAR O .EXE (Windows, uma vez)
+1. Instalar Python 3.10+ de python.org (marcar "Add to PATH" / launcher "py").
+2. Duplo clique em build.bat  ->  gera dist\CondominioPT.exe (ficheiro único, sem dependências).
+   (Também corre sem .exe:  py condominio.py)
+
+DADOS: C:\Users\<utilizador>\CondominioPT  (base de dados, docs, arquivo digital, backups diários).
+
+ORDEM DE UTILIZAÇÃO
+Condomínio (dados, IBAN, seguro) -> Condóminos -> Frações (soma = 1000 ‰) -> Orçamento do ano
+-> "Gerar quotas do ano" -> Pagamentos (+ recibos) / Despesas -> Mapa de quotas / Relatórios.
+
+MÓDULOS: Painel (cartões + gráfico + alertas), Mapa de quotas por mês, Conta corrente (extrato, declaração,
+aviso de atraso, email), Pagamentos com recibos numerados, Quotas extraordinárias, Assembleias (convocatória,
+ata), Obrigações e manutenção, Ocorrências, Arquivo digital, Relatórios/CSV, palavra-passe de acesso opcional.
+
+AUTOMAÇÃO: ao abrir, gera as quotas do ano se houver orçamento, faz cópia de segurança diária e calcula alertas.
+
+VALORES LEGAIS POR OMISSÃO (editáveis): fundo de reserva >= 10 % da quota (DL 268/94 art. 4.º);
+juros civis 4 % (Portaria 291/2003; juro simples, dias/365); convocatória 10 dias (CC art. 1432.º);
+declaração de dívida em 10 dias; ata que fixa as quotas = título executivo (DL 268/94 art. 6.º).
+Confirme sempre prazos e taxas em vigor; é uma ferramenta de apoio, não aconselhamento jurídico.
