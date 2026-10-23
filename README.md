@@ -125,6 +125,4 @@ O código está organizado em três blocos no mesmo ficheiro: base de dados e mo
 
 Sugestões e *pull requests* são bem-vindos. Ao reportar um problema, indique o sistema operativo, a versão do Python e os passos para o reproduzir (sem dados pessoais reais).
 
-## Licença
 
-A definir pelo autor (sugestão: MIT).
